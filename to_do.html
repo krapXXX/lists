@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do List</title>
+    <style>
+        .list_odd 
+        {
+            background-color: rgb(93, 95, 214);
+            padding-left: 25px;
+            height: 50px;
+            padding-top: 10px;
+        }
+        .list_even 
+        {
+            background-color: rgb(53, 59, 130);
+            padding-left: 25px;
+            height: 50px;
+            padding-top: 10px;
+        }
+        .done 
+        {
+            list-style: url('lists/check.png') inside;
+        }
+        .not_done 
+        {
+            list-style: url('lists/square.png') inside;
+        }
+        .title 
+        {
+            text-align: center;
+            font-weight: bold;
+            font-size: 40px;
+            background-color: rgb(38, 41, 186);
+            height: 60px;
+            padding-top: 15px;
+            color: white;
+        }
+        .main_list 
+        {
+            font-size: 30px;
+            background-color: rgb(222, 216, 242);
+            padding: 20px;
+            list-style-position: inside;
+        }
+    </style>
+</head>
+<body>
+    <p class="title">My To Do List</p>
+    <ul class="main_list">
+        <li class="list_odd done">Homework <img src="MARKER.GIF" alt="Marker"></li>
+        <li class="list_even not_done">Clean <img src="MARKER.GIF" alt="Marker"></li>
+        <li class="list_odd not_done">Cook <img src="MARKER.GIF" alt="Marker"></li>
+        <li class="list_even not_done">Water the plants <img src="MARKER.GIF" alt="Marker"></li>
+        <li class="list_odd done">Get groceries <img src="MARKER.GIF" alt="Marker"></li>
+        <li class="list_even done">Go shopping <img src="MARKER.GIF" alt="Marker"></li>
+        <li class="list_odd not_done">Check mail <img src="MARKER.GIF" alt="Marker"></li>
+        <li class="list_even not_done">Order napkins <img src="MARKER.GIF" alt="Marker"></li>
+        <li class="list_odd not_done">Gym <img src="MARKER.GIF" alt="Marker"></li>
+        <li class="list_even done">Meet Ann <img src="MARKER.GIF" alt="Marker"></li>
+        <li class="list_odd done">Find a recipe <img src="MARKER.GIF" alt="Marker"></li>
+    </ul>
+</body>
+</html>
