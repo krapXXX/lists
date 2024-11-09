@@ -19,14 +19,26 @@
             height: 50px;
             padding-top: 10px;
         }
+      
         .done 
         {
-            list-style: url('lists/check.png') inside;
-        }
-        .not_done 
-        {
-            list-style: url('lists/square.png') inside;
-        }
+    list-style-type: none;
+    padding-left: 30px;
+    background-image: url('check.png');
+    background-size: 20px 20px; /* Resize the image */
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+
+.not_done 
+{
+    list-style-type: none;
+    padding-left: 30px;
+    background-image: url('square.png');
+    background-size: 20px 20px; /* Resize the image */
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
         .title 
         {
             text-align: center;
@@ -49,7 +61,7 @@
 <body>
     <p class="title">My To Do List</p>
     <ul class="main_list">
-        <li class="list_odd done">Homework <img src="MARKER.GIF" alt="Marker"></li>
+        <li class="list_odd done">Homework <img src="MARKER.GIF" ></li>
         <li class="list_even not_done">Clean <img src="MARKER.GIF" alt="Marker"></li>
         <li class="list_odd not_done">Cook <img src="MARKER.GIF" alt="Marker"></li>
         <li class="list_even not_done">Water the plants <img src="MARKER.GIF" alt="Marker"></li>
@@ -59,7 +71,7 @@
         <li class="list_even not_done">Order napkins <img src="MARKER.GIF" alt="Marker"></li>
         <li class="list_odd not_done">Gym <img src="MARKER.GIF" alt="Marker"></li>
         <li class="list_even done">Meet Ann <img src="MARKER.GIF" alt="Marker"></li>
-        <li class="list_odd done">Find a recipe <img src="MARKER.GIF" alt="Marker"></li>
+        <li class="list_odd done">Find a recipe <img src="MARKER.GIF" alt="Marker"></li> 
     </ul>
 </body>
 </html>
